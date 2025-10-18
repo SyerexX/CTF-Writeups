@@ -1,5 +1,5 @@
 Tác giả: SyerexX Ngày: 18/10/2025 Thể loại: Forensics
-Thử thách này thuộc danh mục Forensics ở mức độ dễ, yêu cầu người chơi tìm kiếm một flag được giấu bên trong một file ảnh .jpg.
+Thử thách này thuộc danh mục Forensics ở mức độ dễ, yêu cầu người chơi tìm kiếm một flag được giấu bên trong một file ảnh `jpg`.
 Hôm nay mình sẽ **KHÔNG** sử dụng máy ảo để giải đề nữa (không khuyến cáo vì giải đề CTF về cơ bản là tải file bị hỏng hoặc virus về máy — việc này khá nguy hiểm).
 Các bước mà mình thực hiện trước khi giải đề:
 * Mình mở Command Prompt dưới quyền Admin rồi nhập lệnh `wsl --install`. Khi lệnh hoàn thành, bạn có thể dùng Microsoft Store để cài Ubuntu hoặc Kali Linux và sử dụng nó như terminal của máy ảo bình thường!
