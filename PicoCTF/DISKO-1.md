@@ -3,7 +3,7 @@ Thử thách này thuộc danh mục Forensics ở mức độ dễ, yêu cầu 
 
 Sau khi tìm hiểu và truy cập trang web https://play.picoctf.org/ tôi bắt đầu thấy những thử thách đầu tiên:
 Các bước mà mình thực hiện trước khi giải đề:
- * Tải về VMWare + sử dụng máy ảo Linux ParrotOS.
+ * Tải về VMWare + sử dụng máy ảo Linux ParrotOS hoặc Kali Linux.
  * Sử dụng mate Terminal trên máy ảo để bắt đầu giải đề.
 Để bắt đầu cuộc hành trình tôi chọn thử thách Easy mang tên DISKO 1 của Darkraicg492:
 
