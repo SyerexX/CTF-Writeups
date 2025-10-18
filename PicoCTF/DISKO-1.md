@@ -11,6 +11,7 @@ Các bước mà mình thực hiện trước khi giải đề:
  * Thử thách cho tôi tải xuống 1 file disk image với tên là disko-1.dd.gz
  * Tôi thấy ngay rằng đây là một file ảnh đĩa (.dd) đã được nén bằng thuật toán gzip (.gz) để giải nén tôi vào terminal truy cập ổ đĩa chứa file bằng lệnh cd Downloads
  * Bạn có thể sử dụng lệnh "ls" để tra xem file mình cần có nằm trong ổ đó không.
+
 ### 2. Giải nén:
  *Sử dụng lện gunzip "Tên file cần giải nén" vd: gunzip disko-1.dd.gz khi đã hoàn thành máy sẽ trả về file đã giải nén vd: disko-1.dd (không còn .gz nữa) bạn có thể sử dụng ls để kiểm tra.
  
