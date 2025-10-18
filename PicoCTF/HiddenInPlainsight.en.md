@@ -7,23 +7,18 @@ Steps I took before solving the challenge:
 * Today we’ll solve another Easy challenge called **Hidden in plainsight** by Yahaya Meddy.
 
 ### 1. File analysis
-
 * The challenge provided an image file named **img.jpg** to download.
 * When you open the file it looks like a normal picture.
 * The hint from the author was: “Download the jpg image and read its metadata.” Based on that hint, the first step is to check the image file’s metadata.
 
 ### 2. Solving the challenge
-
 * I solved it using an image metadata tool like `exiftool`:
-
   * To install `exiftool` first run:
-
     ```
     sudo apt update
     sudo apt install libimage-exiftool-perl -y
     ```
   * Then view the image metadata with:
-
     ```
     exiftool img.jpg
     ```
@@ -34,11 +29,8 @@ Steps I took before solving the challenge:
   ```
   echo c3RlZ2hpZGU6Y0VGNmVuZHZjbVE9 | base64 -d
   ```
-
   This produced: `steghide:cEF6endvcmQ=`
-
   * Explanation:
-
     * `echo`: prints the given text to stdout.
     * `|` (pipe): passes the output of the left command as input to the right command.
     * `base64 -d`: decodes the Base64-encoded input to its original data.
