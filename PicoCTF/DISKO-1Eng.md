@@ -1,9 +1,8 @@
-Author: SyerexX
-Date: 18/10/2025
+Author: SyerexX Date: 18/10/2025
 Category: Forensics
 This challenge belongs to the Forensics category at an easy level; players are asked to find a flag hidden inside a disk image file.
 After exploring and visiting https://play.picoctf.org/
- I began to see the first challenges:
+I began to see the first challenges:
 Steps I took before solving the challenge:
 Downloaded VMWare and used a Linux VM (ParrotOS or Kali Linux).
 Used the MATE Terminal on the VM to start solving the challenge.
